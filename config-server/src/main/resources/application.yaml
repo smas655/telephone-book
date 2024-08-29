@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: C:\Users\Asus Vivobook\Desktop\andersen\telephone-book\src\main\resources
+server:
+  port: 8071
