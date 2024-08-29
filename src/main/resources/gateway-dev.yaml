@@ -26,8 +26,8 @@ spring:
         registration:
           keycloak:
             provider: keycloak
-            client-id: client-id
-            client-secret: client-secret
+            client-id: ander-app
+            client-secret: PDf11JNKVejkXLTR1rq8ffnZWL1bZIzV
             authorization-grant-type: authorization_code
             scope: openid
 

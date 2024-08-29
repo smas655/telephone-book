@@ -44,6 +44,7 @@ public class SecurityConfig {
         return NimbusJwtDecoder.withJwkSetUri("http://localhost:8082/realms/ander/protocol/openid-connect/certs").build();
     }
 
+
     @Bean
     public AccessDeniedHandler accessDeniedHandler() {
         return new CustomAccessDeniedHandler();
